@@ -1,6 +1,7 @@
-:- module(sport,[wykonaj]).
+:- module(sport,[wykonaj/0]).
 
-:- dynamic([xpozytywne/2, xnegatywne/2]).
+:- dynamic([xpozytywne/2, xnegatywne/2, xjak/2]).
+
 
 sport_to(pilka_nozna) :-
 	jest_to(gracz_zespolowy),
@@ -52,15 +53,15 @@ sport_to(wioslarstwo) :-
 
 
 jest_to(endomorfik) :-
-	pozytywne(ma, umiesniona_budowa_ciala),
+	jak("Jak rozwiniete umiesnienie?", "mocno", "slabo/srednio/mocno"),
 	pozytywne(ma, pokazna_ilosc_tkanki_tluszczowej).
 
 jest_to(ektomorfik) :-
 	pozytywne(ma, waskie_ramiona_i_miednica),
-	pozytywne(ma, slabo_rozwiniete_umiesnienie).
+	jak("Jak rozwiniete umiesnienie?", "slabo", "slabo/srednio/mocno").
 
 jest_to(mezomorfik) :-
-	pozytywne(ma, umiesniona_budowa_ciala),
+	jak("Jak rozwiniete umiesnienie?", "mocno", "slabo/srednio/mocno"),
 	pozytywne(ma, waskie_biodra),
 	pozytywne(ma, szerokie_barki),
 	pozytywne(ma, sylwetka_typu_V).
@@ -88,6 +89,20 @@ jest_to(gracz_zespolowy) :-
 jest_to(typ_agresywny) :-
 	negatywne(czy, potrafi_lagodzic_spory),
 	pozytywne(czy, czesto_podnosi_glos).
+
+jak(Pytanie, Oczekiwana, Mozliwosci) :-
+	zapytano_wczesniej(Pytanie, Oczekiwana, _); ! ,
+	pytaj_tekst(Pytanie, Oczekiwana, Mozliwosci).
+
+zapytano_wczesniej(Pytanie, Oczekiwana, PoprzedniaOdpowiedz) :-
+	xjak(Pytanie, PoprzedniaOdpowiedz),
+	sub_string(PoprzedniaOdpowiedz, 0, _, _, Oczekiwana).
+
+pytaj_tekst(Pytanie, Oczekiwana, Mozliwosci) :-
+	!, write(Pytanie), write(" ("), write(Mozliwosci), write(")\n"),
+	readln([Replay]),
+	assertz(xjak(Pytanie, Replay)),
+	sub_string(Replay, 0, _, _, Oczekiwana).
 
 pozytywne(X, Y) :-
 	xpozytywne(X, Y), !.

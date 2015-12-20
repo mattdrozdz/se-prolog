@@ -102,13 +102,13 @@
 			<state id="Indywidualista" />
 			<state id="GraczZespolowy" />
 			<parents>CzyLubiPomagacInnym CzyLubiSieDzielic CzyLiczyTylkoNaSiebie</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0 1 0 1 1 0 0.5 0.5 0.5 0.5 0.5 0.5 1 0 0.5 0.5</probabilities>
 		</cpt>
 		<cpt id="CzyTypAgresywny">
 			<state id="Tak" />
 			<state id="Nie" />
 			<parents>CzyLagodziSpory CzyCzestoPodnosiGlos</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0 1 0 1 1 0 0 1</probabilities>
 		</cpt>
 		<cpt id="TypBudowyCiala">
 			<state id="Mezomorfik" />

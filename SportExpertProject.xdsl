@@ -131,61 +131,61 @@
 			<state id="Tak" />
 			<state id="Nie" />
 			<parents>TypPredyspozycjiPsychicznej TypPredyspozycjiFizycznej</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0 1 0 1 0 1 0 1 1 0 1 0</probabilities>
 		</cpt>
 		<cpt id="siatkowka">
 			<state id="Tak" />
 			<state id="Nie" />
 			<parents>Czy_jest_wysoki TypPredyspozycjiFizycznej TypPredyspozycjiPsychicznej</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0 1 0 1 0 1 0 1 0 1 1 0 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="kolarstwo">
 			<state id="Tak" />
 			<state id="Nie" />
-			<parents>TypPredyspozycjiPsychicznej TypPredyspozycjiFizycznej</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>TypPredyspozycjiPsychicznej TypPredyspozycjiFizycznej TypBudowyCiala</parents>
+			<probabilities>0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="rugby">
 			<state id="Tak" />
 			<state id="Nie" />
 			<parents>TypPredyspozycjiPsychicznej TypPredyspozycjiFizycznej CzyTypAgresywny</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="biegiDlugdystansowe">
 			<state id="Tak" />
 			<state id="Nie" />
 			<parents>TypPredyspozycjiPsychicznej TypPredyspozycjiFizycznej TypBudowyCiala</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0 1 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="biegiSprinterskie">
 			<state id="Tak" />
 			<state id="Nie" />
 			<parents>TypPredyspozycjiPsychicznej TypPredyspozycjiFizycznej</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>0 1 0 1 1 0 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="podnoszenieCiezarow">
 			<state id="Tak" />
 			<state id="Nie" />
-			<parents>TypPredyspozycjiPsychicznej CzyMaKrotkieKonczyny</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>TypPredyspozycjiPsychicznej CzyMaKrotkieKonczyny TypPredyspozycjiFizycznej TypBudowyCiala</parents>
+			<probabilities>0 1 0 1 0 1 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="sztukiWalki">
 			<state id="Tak" />
 			<state id="Nie" />
 			<parents>TypPredyspozycjiPsychicznej CzyTypAgresywny</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>1 0 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="wspinaczka">
 			<state id="Tak" />
 			<state id="Nie" />
-			<parents>TypPredyspozycjiFizycznej TypBudowyCiala</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<parents>TypPredyspozycjiFizycznej TypBudowyCiala CzyDlugoUtrzymujeSieNaDrazku</parents>
+			<probabilities>0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1</probabilities>
 		</cpt>
 		<cpt id="wioslarstwo">
 			<state id="Tak" />
 			<state id="Nie" />
 			<parents>CzyMaDlugieKonczyny TypPredyspozycjiFizycznej</parents>
-			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+			<probabilities>1 0 0 1 0 1 0 1 0 1 0 1</probabilities>
 		</cpt>
 	</nodes>
 	<extensions>
@@ -244,14 +244,14 @@
 				<interior color="ffcc00" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>886 501 1139 531</position>
+				<position>1002 439 1255 469</position>
 			</node>
 			<node id="CzyMaDobryWynikWTescieCoopera">
 				<name>CzyMaDobryWynikWTescieCoopera</name>
 				<interior color="ffcc00" />
 				<outline color="000080" />
 				<font color="000000" name="Arial" size="8" />
-				<position>1004 455 1225 485</position>
+				<position>902 498 1123 528</position>
 			</node>
 			<node id="CzyDalekoSkaczeWDal">
 				<name>CzyDalekoSkaczeWDal</name>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<smile version="1.0" id="Network1" numsamples="1000" discsamples="10000">
+	<nodes>
+		<cpt id="CzyLagodziSpory">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyMaDobryWynikWBieguZwinnosciowym">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyLiczyTylkoNaSiebie">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyCzestoPodnosiGlos">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyLubiPomagacInnym">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyLubiSieDzielic">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyMaDobryWynikWProbieGibkosci">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyDlugoUtrzymujeSieNaDrazku">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyMaDobryWynikWTescieCoopera">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyDalekoSkaczeWDal">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzySzybkoBiega50m">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyMaSylwetkeTypuV">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyMaSzerokieBarki">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyMaWaskieBiodra">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Umiesnienie">
+			<state id="Silne" />
+			<state id="Slabe" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyMaWaskieRamionaIMiednice">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyMaPokaznaIloscTkankiTluszczowej">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyMaDlugieKonczyny">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="TypPredyspozycjiFizycznej">
+			<state id="TypWytrzymalosciowy" />
+			<state id="TypElastyczny" />
+			<state id="TypSzybkosciowy" />
+			<parents>CzyMaDobryWynikWBieguZwinnosciowym CzyDlugoUtrzymujeSieNaDrazku CzyMaDobryWynikWTescieCoopera CzyDalekoSkaczeWDal CzySzybkoBiega50m CzyMaDobryWynikWProbieGibkosci</parents>
+			<probabilities>0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0</probabilities>
+		</cpt>
+		<cpt id="TypPredyspozycjiPsychicznej">
+			<state id="Indywidualista" />
+			<state id="GraczZespolowy" />
+			<parents>CzyLubiPomagacInnym CzyLubiSieDzielic CzyLiczyTylkoNaSiebie</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyTypAgresywny">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>CzyLagodziSpory CzyCzestoPodnosiGlos</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="TypBudowyCiala">
+			<state id="Mezomorfik" />
+			<state id="Ektomorfik" />
+			<state id="Endomorfik" />
+			<parents>CzyMaWaskieRamionaIMiednice CzyMaPokaznaIloscTkankiTluszczowej CzyMaSylwetkeTypuV CzyMaSzerokieBarki Umiesnienie CzyMaWaskieBiodra CzyMaDlugieKonczyny</parents>
+			<probabilities>0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0 0.5 0.5 0</probabilities>
+		</cpt>
+		<cpt id="Czy_jest_wysoki">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="CzyMaKrotkieKonczyny">
+			<state id="Tak" />
+			<state id="Nie" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="pilkaNozna">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>TypPredyspozycjiPsychicznej TypPredyspozycjiFizycznej</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="siatkowka">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>Czy_jest_wysoki TypPredyspozycjiFizycznej TypPredyspozycjiPsychicznej</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="kolarstwo">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>TypPredyspozycjiPsychicznej TypPredyspozycjiFizycznej</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="rugby">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>TypPredyspozycjiPsychicznej TypPredyspozycjiFizycznej CzyTypAgresywny</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="biegiDlugdystansowe">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>TypPredyspozycjiPsychicznej TypPredyspozycjiFizycznej TypBudowyCiala</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="biegiSprinterskie">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>TypPredyspozycjiPsychicznej TypPredyspozycjiFizycznej</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="podnoszenieCiezarow">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>TypPredyspozycjiPsychicznej CzyMaKrotkieKonczyny</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="sztukiWalki">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>TypPredyspozycjiPsychicznej CzyTypAgresywny</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="wspinaczka">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>TypPredyspozycjiFizycznej TypBudowyCiala</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="wioslarstwo">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>CzyMaDlugieKonczyny TypPredyspozycjiFizycznej</parents>
+			<probabilities>0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.0.5590.0" name="SportExpert" faultnameformat="nodestate">
+			<node id="CzyLagodziSpory">
+				<name>CzyLagodziSpory</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>13 634 132 664</position>
+			</node>
+			<node id="CzyLiczyTylkoNaSiebie">
+				<name>CzyLiczyTylkoNaSiebie</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>639 634 779 664</position>
+			</node>
+			<node id="CzyCzestoPodnosiGlos">
+				<name>CzyCzestoPodnosiGlos</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>150 635 298 665</position>
+			</node>
+			<node id="CzyLubiPomagacInnym">
+				<name>CzyLubiPomagacInnym</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>298 636 464 666</position>
+			</node>
+			<node id="CzyLubiSieDzielic">
+				<name>CzyLubiSieDzielic</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>471 635 633 665</position>
+			</node>
+			<node id="CzyMaDobryWynikWProbieGibkosci">
+				<name>CzyMaDobryWynikWProbieGibkosci</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1139 510 1355 540</position>
+			</node>
+			<node id="CzyMaDobryWynikWBieguZwinnosciowym">
+				<name>CzyMaDobryWynikWBieguZwinnosciowym</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>685 483 909 513</position>
+			</node>
+			<node id="CzyDlugoUtrzymujeSieNaDrazku">
+				<name>CzyDlugoUtrzymujeSieNaDrazku</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>886 501 1139 531</position>
+			</node>
+			<node id="CzyMaDobryWynikWTescieCoopera">
+				<name>CzyMaDobryWynikWTescieCoopera</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1004 455 1225 485</position>
+			</node>
+			<node id="CzyDalekoSkaczeWDal">
+				<name>CzyDalekoSkaczeWDal</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>635 536 888 566</position>
+			</node>
+			<node id="CzySzybkoBiega50m">
+				<name>CzySzybkoBiega50m</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>927 558 1180 588</position>
+			</node>
+			<node id="CzyMaSylwetkeTypuV">
+				<name>CzyMaSylwetkeTypuV</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1251 643 1399 673</position>
+			</node>
+			<node id="CzyMaSzerokieBarki">
+				<name>CzyMaSzerokieBarki</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1402 638 1533 668</position>
+			</node>
+			<node id="CzyMaWaskieBiodra">
+				<name>CzyMaWaskieBiodra</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1755 627 1881 657</position>
+			</node>
+			<node id="Umiesnienie">
+				<name>Umiesnienie</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1550 623 1748 653</position>
+			</node>
+			<node id="CzyMaWaskieRamionaIMiednice">
+				<name>CzyMaWaskieRamionaIMiednice</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1395 542 1590 572</position>
+			</node>
+			<node id="CzyMaPokaznaIloscTkankiTluszczowej">
+				<name>CzyMaPokaznaIloscTkankiTluszczowej</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1267 587 1494 617</position>
+			</node>
+			<node id="CzyMaDlugieKonczyny">
+				<name>CzyMaDlugieKonczyny</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1803 571 1948 601</position>
+			</node>
+			<node id="TypPredyspozycjiFizycznej">
+				<name>TypPredyspozycjiFizycznej</name>
+				<interior color="ffff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>823 356 1076 427</position>
+			</node>
+			<node id="TypPredyspozycjiPsychicznej">
+				<name>TypPredyspozycjiPsychicznej</name>
+				<interior color="ffff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>286 357 539 436</position>
+			</node>
+			<node id="CzyTypAgresywny">
+				<name>CzyTypAgresywny</name>
+				<interior color="ffff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>73 354 223 430</position>
+			</node>
+			<node id="TypBudowyCiala">
+				<name>TypBudowyCiala</name>
+				<interior color="ffff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1428 350 1681 439</position>
+			</node>
+			<node id="Czy_jest_wysoki">
+				<name>Czy jest wysoki</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>582 433 694 465</position>
+			</node>
+			<node id="CzyMaKrotkieKonczyny">
+				<name>CzyMaKrotkieKonczyny</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1258 440 1392 483</position>
+			</node>
+			<node id="pilkaNozna">
+				<name>pilkaNozna</name>
+				<interior color="00ff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>285 115 413 158</position>
+			</node>
+			<node id="siatkowka">
+				<name>siatkowka</name>
+				<interior color="00ff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>457 116 552 159</position>
+			</node>
+			<node id="kolarstwo">
+				<name>kolarstwo</name>
+				<interior color="00ff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>606 116 697 161</position>
+			</node>
+			<node id="rugby">
+				<name>rugby</name>
+				<interior color="00ff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>754 116 839 156</position>
+			</node>
+			<node id="biegiDlugdystansowe">
+				<name>biegiDlugdystansowe</name>
+				<interior color="00ff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1064 106 1178 177</position>
+			</node>
+			<node id="biegiSprinterskie">
+				<name>biegiSprinterskie</name>
+				<interior color="00ff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>889 109 984 168</position>
+			</node>
+			<node id="podnoszenieCiezarow">
+				<name>podnoszenieCiezarow</name>
+				<interior color="00ff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1270 112 1388 185</position>
+			</node>
+			<node id="sztukiWalki">
+				<name>sztukiWalki</name>
+				<interior color="00ff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>155 107 243 158</position>
+			</node>
+			<node id="wspinaczka">
+				<name>wspinaczka</name>
+				<interior color="00ff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1492 117 1582 171</position>
+			</node>
+			<node id="wioslarstwo">
+				<name>wioslarstwo</name>
+				<interior color="00ff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1684 111 1766 161</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
